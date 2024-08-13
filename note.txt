@@ -1,0 +1,15 @@
+install NodeJs
+---------------------------------
+Create Folder in VS Code
+Open Terminal (CTRL +  ذ)
+---------------------------------
+npm init
+npm install --save-dev jest
+---------------------------------
+Add in file Package.json  
+
+"scripts":{ 
+    "test": "jest"
+}  
+---------------------------------
+RUN 👉 npm test
