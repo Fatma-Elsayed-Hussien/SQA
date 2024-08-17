@@ -49,3 +49,27 @@ module.exports = { calculator };
 //        - invalid values (Negative, zero)
 
 //   👉 write test case ensures that the total price for object is calculated correctly based on the quantity and price
+
+// ------------------------------------------------------------------------------------------
+//                        ✨✨✨✨ SECTION 3 ✨✨✨✨
+// ------------------------------------------------------------------------------------------
+
+// 📌 Practice (4) -- Unique Array Matcher
+//       Create a custom matcher toContainUniqueElements 
+//       to check if an array contains only unique elements. 
+//       The array should not have any duplicate values.
+
+//👉expect([1, 2, 3, 4]).toContainUniqueElements();   // PASS✅
+//👉expect([1, 2, 3, 3]).toContainUniqueElements();   // FAIL❌
+
+
+// 📌 Practice (5) -- User Profile Validation
+//       Create a custom matcher toHaveValidProfile 
+//       to check if a user profile object has valid properties. 
+//       The profile should include:
+//           name (string, non-empty)
+//           email (string, valid email)
+//           age (number, greater than or equal to 18)
+
+//👉expect({ name:'John', email:'john@example.com', age:24 }).toHaveValidProfile();        // PASS✅
+//👉expect({ name: '', email:'invalid-email@ss.com', age: 13 }).toHaveValidProfile();      // FAIL❌

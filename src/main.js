@@ -2,6 +2,7 @@ function sum(a, b) {
   return a + b;
 }
 
+
 function sendingEmailTo(name) {
   return `Hi ${name}
     Thank you for joining us We are glad to have you on borad
