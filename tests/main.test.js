@@ -1,4 +1,4 @@
-const { sum, sendingEmailTo, isEven, getUserByID } = require("./main");
+const { sum, sendingEmailTo, isEven, getUserByID } = require("../src/main");
 
 // Test Numbers
 describe("test sum", function () {
