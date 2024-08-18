@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1723937598218" clover="3.2.0">
+  <project timestamp="1723937598219" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2" elements="29" coveredelements="29" complexity="0" loc="13" ncloc="13" packages="1" files="2" classes="2"/>
+    <file name="calculator.js" path="E:\الكلية\ثالثة\ترم اول\Verification_Validation\testing\calculator.js">
+      <metrics statements="8" coveredstatements="8" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <line num="2" count="10" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="5" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+    </file>
+    <file name="email.js" path="E:\الكلية\ثالثة\ترم اول\Verification_Validation\testing\email.js">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="6" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
